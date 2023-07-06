@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--primary-dark);
+    height: 100px;
+    /* margin: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+  } 
+  .socialmedia img{
+    margin-left:2rem ;
+  }
+  .socialmedia img:hover{
+    transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(black, 0.2);
+  }

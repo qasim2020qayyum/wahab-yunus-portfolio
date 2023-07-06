@@ -1,0 +1,38 @@
+.about-wrapper {
+  z-index: 3;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 0.0625rem solid var(--primary-orange);
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading {
+  color: var(--primary-orange);
+}
+.about-btn{
+  background-color: var(--primary-orange);
+
+}
+.skills-color{
+  color: var(--primary-orange);
+}
+
+
+@media screen and (max-width: 576px) {
+  
+  .aboutss{
+    padding: 2rem !important;
+    text-align: justify;
+  }
+    
+
+  }

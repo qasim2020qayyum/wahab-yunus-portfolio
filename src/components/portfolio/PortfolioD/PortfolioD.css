@@ -1,0 +1,202 @@
+.heading-main {
+    /* color: rgb(41, 41, 141); */
+    color: var(--primary-orange);
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .cont-main {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+  }
+  
+  .button-class {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, var(--primary-orange) 0, var(--primary-orange) 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    /* background-color: rgba(9, 9, 238, 0.575);
+    color: aliceblue;
+    border-radius: 5%;
+    padding: 5px;
+    cursor: pointer; */
+    text-transform: uppercase;
+    margin: 0 5px;
+  }
+  .button-class:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
+  .button-class:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #060606 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button-class:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+  /* ############### button code #################  */
+  /* CSS */
+  .button-16 {
+    background-color: #f8f9fa;
+    border: 1px solid #0c79e6;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+  }
+  
+  .button-16:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+  }
+  
+  .button-16:focus {
+    border-color: #4285f4;
+    outline: none;
+  }
+  /* ############### button code ################# ☻ */
+  
+  .button-17 {
+    background-color: var(--primary-orange);
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+  }
+  
+  .button-17:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+  }
+  
+  .button-17:focus {
+    border-color: #4285f4;
+    outline: none;
+  }
+  /* ############### button code ################# ☻ */
+  
+  
+  @media screen and (max-width: 500px) {
+    .cont-main {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
+    .menu {
+      padding: 0;
+    }
+    .button-class {
+      margin: 0;
+    }
+  }
+  
+  .content-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .boxes {
+    margin: 2rem 5rem 2rem 5rem;
+  }
+  @media screen and (max-width: 1024px) {
+    .boxes {
+      margin: 1rem;
+    }
+  }
+  
+  .box2 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px 1px #888888;
+    transition: all 0.4s;
+    
+    padding: 1rem;
+  }
+  .box2:hover{
+    transform: scale(1.02);
+  }
+  .box-img img {
+    height: 115px;
+    width: 100px;
+  }
+  
+  .box-head-desc {
+    padding: 0 1rem;
+  }
+  .box-heading {
+    text-transform: uppercase;
+    color: brown;
+  }
+  .box-description {
+    font-size: 0.8rem;
+  }
+  .box-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px 0;
+  }

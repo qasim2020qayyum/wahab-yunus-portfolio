@@ -1,0 +1,22 @@
+.contactbg{
+    color: aliceblue;   
+    background-image: linear-gradient(black, grey, var(--primary-dark));
+}
+.adeco{
+    color: aliceblue;
+}
+@media screen and (max-width: 410px) {
+    /* input {
+        width: 90% !important;
+    }
+    textarea {
+        max-width: 90% !important;
+        min-width: 90% !important;
+      } */
+    section{
+      padding: 10rem 1rem 5rem 1rem !important;
+    }
+    form{
+        /* width: 90% !important; */
+    }
+  }
