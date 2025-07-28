@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import PicOfMe from './me.jpeg'
+import PicOfMe from './qasimprofile.jpeg'
 
 const AboutMe = () => {
   return (
@@ -11,29 +11,25 @@ const AboutMe = () => {
             <img
               className='profile-img'
               src={PicOfMe}
-              alt='Picture of Author'
+              alt='Picture of Qasim Qayyum'
             />
           </div>
         </div>
         <div className='aboutss col-lg-6 col-xm-12'>
           <h2 className='text-uppercase about-heading'>about me</h2>
           <p>
-            Hello! I am Wahab. I have been developing websites for over 5
-            years.  I am a professional web developer and graphic designer.
-            I specialize in ReactJS, NodeJS, ExpressJS, NextJS, Redux, TypeScript, Javascript, MERN Stack.😊
+            Hello! I am Qasim Qayyum, a Software Engineer with 3.5+ years of experience in MERN/PERN Stack development. I hold a Bachelor of Science in Software Engineering from the University of Lahore and I'm AWS Certified Solution Architect – Associate.
             <br /><br />
-            What makes me perfect for your project?
-            <br />
-            I combine good design, with great UX (user experience), CX (conversion optimization), and SEO (search engine optimization). I have a great eye for design and I write amazing codes as well, which makes me a (unicorn).
+            I specialize in developing full-stack applications using modern technologies like ReactJS, NextJS, NodeJS, ExpressJS, MongoDB, PostgreSQL, and AWS cloud services. I have extensive experience in building scalable web applications, APIs, and cloud-based solutions.
             <br /><br />
-            Need a great website to generate revenue or serve your clients?🤓  I can provide you with a solution to do both and also increase your presence online. My experience in the web development field is top-notch and ready to serve your business.
+            Currently working as a Software Engineer at Beyond Technologies, I've developed various applications including office management systems, LMS platforms, and AI-powered applications. I'm passionate about creating efficient, user-friendly solutions that solve real-world problems.
           </p>
           <p>
-            MY SKILL SET: <span className='skills-color'>ReactJs 💻, NextJs, TypeScript, JavaScript , NodeJs, ExpressJs, MongoDb, SAAS, BootStrap, Tailwind, HTML5, CSS3, C++, OOP, DS, JAVA, Figma</span>
+            MY SKILL SET: <span className='skills-color'>JavaScript 💻, NodeJs, ExpressJs, ReactJs, NextJs, MongoDB, PostgreSQL, AWS (EC2, S3, Lambda, Amplify), RESTful APIs, SCSS, CSS3, Tailwind, Material UI, Bootstrap, HTML5, RAG/Langchain</span>
           </p>
-          {/* <a href='qasimResume.pdf' download="Qasim Qayyum Resume.pdf">
-          <button className='btn btn-warning about-btn'>Get Resume</button>
-        </a> */}
+          <a href="Qasim's Resume.pdf" download="Qasim Qayyum Resume.pdf">
+            <button className='btn btn-warning about-btn'>Get Resume</button>
+          </a>
 
         </div>
       </div>

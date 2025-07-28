@@ -9,7 +9,7 @@ export const testimonialsInfo = [
     img: avatar1,
     name: 'John Bothe',
     review:
-      'Wahab is so far the best Web Developer I had to work with. Super professional, patient, and going deep to fix issues and optimize the code. Once again, a real pleasure to collaborate with.',
+      'Qasim is so far the best Web Developer I had to work with. Super professional, patient, and going deep to fix issues and optimize the code. Once again, a real pleasure to collaborate with.',
   },
   {
     img: avatar2,
@@ -27,7 +27,7 @@ export const testimonialsInfo = [
     img: avatar4,
     name: 'Adam Bristo',
     review:
-      'Wahab is a very talented up-and-coming Web Developer/Designer. He is very accommodating and will work to his satisfaction. We are glad to have worked with him and will be back for more.',
+      'Qasim is a very talented up-and-coming Web Developer/Designer. He is very accommodating and will work to his satisfaction. We are glad to have worked with him and will be back for more.',
   },
   {
     img: avatar2,

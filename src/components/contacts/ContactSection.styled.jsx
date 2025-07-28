@@ -7,8 +7,8 @@ const float = keyframes`
     `;
 
 export const StyledContactSection = styled.section`
-  min-height: 70vh;
-  padding: 10rem 5rem 5rem 5rem;
+  min-height: 30vh;
+  padding: 4rem 5rem 2rem 5rem;
   width: 100%;
 `;
 

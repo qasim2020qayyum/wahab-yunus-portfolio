@@ -1,14 +1,87 @@
 .portfolio-img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
   border: 0.0625rem solid var(--primary-orange);
   padding: 0 0.5rem;
   box-shadow: inset 0 0 0.625rem 0 rgba(0, 0, 0, 1);
+  border-radius: 8px;
 }
 
 .portfolio-img:hover {
   border: 0.0625rem solid var(--primary-red);
   box-shadow: inset 0 0 1.25rem 0 rgba(0, 0, 0, 1);
   cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+.portfolio-image-box {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-card {
+  background: var(--primary-white);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-title {
+  color: var(--primary-orange);
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.portfolio-description {
+  color: var(--primary-dark-grey);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: justify;
+  flex: 1;
+}
+
+.portfolio-demo-btn {
+  background: var(--primary-orange);
+  color: var(--primary-white);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  display: inline-block;
+  margin-top: auto;
+}
+
+.portfolio-demo-btn:hover {
+  background: var(--primary-red);
+  color: var(--primary-white);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-info {
@@ -70,5 +143,45 @@
 
   .portfolio-info p {
     padding: 0 6rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-img {
+    height: 200px;
+  }
+  
+  .portfolio-image-box {
+    height: 200px;
+  }
+  
+  .portfolio-title {
+    font-size: 1.2rem;
+  }
+  
+  .portfolio-description {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolio-img {
+    height: 180px;
+  }
+  
+  .portfolio-image-box {
+    height: 180px;
+  }
+  
+  .portfolio-card {
+    padding: 1rem;
+  }
+  
+  .portfolio-title {
+    font-size: 1.1rem;
+  }
+  
+  .portfolio-description {
+    font-size: 0.8rem;
   }
 }

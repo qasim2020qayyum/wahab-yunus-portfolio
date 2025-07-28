@@ -1,6 +1,6 @@
 import React from 'react'
 import Particles from './Particles'
-import Typed from 'react-typed'
+import { TypeAnimation } from 'react-type-animation'
 import './header.css'
 
 const Header = () => {
@@ -8,27 +8,30 @@ const Header = () => {
     <section id='home' className='header-wrapper'>
       <Particles />
       <div className='main-info'>
-        <h1>I am Wahab Yunus</h1>
-        <Typed
+        <h1>I am Qasim Qayyum</h1>
+        <TypeAnimation
           className='typed-text'
-          strings={[
+          sequence={[
+            'SOFTWARE ENGINEER',
+            1000,
             'MERN STACK DEVELOPER',
+            1000,
+            'PERN STACK DEVELOPER',
+            1000,
             'FULL STACK DEVELOPER',
-            'NEXTJS DEVELOPER',
-            'SHOPIFY DEVELOPER',
-            'WORDPRESS DEVELOPER',
+            1000,
+            'AWS CERTIFIED DEVELOPER',
+            1000,
             '',
+            1000,
           ]}
-          typeSpeed={40}
-          backSpeed={60}
-          loop
+          wrapper="span"
+          speed={40}
+          repeat={Infinity}
         />
-        {/* <a href='#' className='btn-main-offer'>
-          contact me
-        </a> */}
-        {/* <a href='qasimResume.pdf' download="Qasim Qayyum Resume.pdf">
+        <a href="Qasim's Resume.pdf" download="Qasim Qayyum Resume.pdf">
           <button className='btn btn-main-offer'>Get Resume</button>
-        </a> */}
+        </a>
       </div>
     </section>
   )

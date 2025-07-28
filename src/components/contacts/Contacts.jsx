@@ -20,10 +20,10 @@ const Contacts = () => {
 
     emailjs
     .sendForm(
-      'service_clecths', 
-      'template_qi4ak0d', 
+      'service_qasim3',
+      'template_bt43s7m',
       form.current, 
-      'ejU48XerHugE5qS5B'
+      'user_vvDEJxSOKVZIY3AvAEISp'
       )
       .then((result) => {
         console.log(result.text);
@@ -45,22 +45,34 @@ const Contacts = () => {
           <h1>Contact</h1>
           <p>Get in touch</p>
         </SectionHeading> */}
-         <main id='portfolio' className='portfolio-wrapper py-5'>
+         <main id='portfolio' className='portfolio-wrapper py-3'>
       <div className='container'>
-        <h1 className='text-uppercase text-center py-5'>Contact</h1> </div></main>
+        <h1 className='text-uppercase text-center py-3'>Contact</h1> </div></main>
         <DetailsWrapper>
           <ContactInfo>
             <p>
               I'd love if you reached out to me. Even if it's just to say
-              "Hey!". Don't hesitate! Drop me a line and I’ll get back to you
+              "Hey!". Don't hesitate! Drop me a line and I'll get back to you
               ASAP!
             </p>
-              <a className='adeco' href="sales@eraflip.com">
-               My Email: <span>sales@eraflip.com</span>
+              <a className='adeco' href="mailto:qasim20qayyum@gmail.com">
+               My Email: <span>qasim20qayyum@gmail.com</span>
+              </a>
+              <br />
+              <a className='adeco' href="tel:+923049075873">
+               My Phone: <span>+92 304 9075873</span>
+              </a>
+              <br />
+              <a className='adeco' href="https://www.linkedin.com/in/qasim-qayyum-78a490214/" target="_blank">
+               LinkedIn: <span>qasim-qayyum-78a490214</span>
+              </a>
+              <br />
+              <a className='adeco' href="https://github.com/qasim2020qayyum" target="_blank">
+               GitHub: <span>qasim2020qayyum</span>
               </a>
             {/* <div>
             </div> */}
-            <StyledContactForm>
+            {/* <StyledContactForm>
               <form ref={form} onSubmit={sendEmail} autoComplete="off">
                 <h3>Write me a Message 👇</h3>
                 <label>Your Name</label>
@@ -71,7 +83,7 @@ const Contacts = () => {
                 <textarea name="message" required />
                 <input type="submit" value="Send" />
               </form>
-            </StyledContactForm>
+            </StyledContactForm> */}
           </ContactInfo>
           <ImageWrapper>
             <img src="./images/chat.svg" alt="contact" />

@@ -20,7 +20,7 @@ const navbar = () => {
     <nav className='navbar navbar-expand-lg navbar-light bg-dark position-fixed w-100'>
       <div className='container'>
         <Link className='navbar-brand' href='/' style={{color:' white'}}>
-               <span>WAHAB</span><span style={{color:' teal'}}> YUNUS</span>
+               <span>QASIM</span><span style={{color:' teal'}}> QAYYUM</span>
           {/* <img className='logo' src={logo} alt='My logo' /> */}
         </Link>
         <button

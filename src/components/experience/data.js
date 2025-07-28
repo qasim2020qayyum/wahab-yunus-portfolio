@@ -1,23 +1,40 @@
 export const experience = [
   {
     id: 1,
-    title: '2020-2021',
-    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-    description2:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+    title: 'Beyond Technologies, Lahore, PK',
+    description:'Software Engineer (MERN/PERN) - June 2024 - Present',
+    description2:'• Developing an office management app featuring three roles: Agency, client, and employee, integrating socket, AWS, etc.',
+    description3:'• Added chatbot and integrated Multiple CMS (Productly, GoHighLevel). Link: https://gigbase.io/',
+    description4:'• Developed an LMS for school (The Educator & Beaconhouse) to generate exams and manage campuses, teachers, and students. Link: https://quizillapro.com/',
+    description5:'• Developed an LMS for school (The Educator & Beaconhouse) where students can generate quizzes and practice exams. Link: https://quizapp.quizillapro.com/pages/login/',
+    description6:'• Developed a PMS for podcast to generate questions using previous YouTube podcast videos with the help of OpenAI. Link: https://app.podpacer.com/authentication/login',
   },
   {
     id: 2,
-    title: '2021-2022',
-    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-    description2:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-    description3:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-    
+    title: 'Collaborate Solutions, Lahore, PK',
+    description:'MERN Stack Developer - May 2023 - May 2024',
+    description2:'• Developed and Deployed a Social Media App similar to Facebook/LinkedIn (60% completion). Link: https://www.fruitychat.com',
+    description3:'• Developed the Frontend of a Health Care System (70% completion)',
   },
   {
     id: 3,
-    title: '2022-2023',
-    description2:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-
-    
+    title: 'PNY Trainings, Lahore, PK',
+    description:'MERN STACK Developer & INSTRUCTOR - January 2023 - July 2023',
+    description2:'• Provided training to students',
+    description3:'• Developed the company website frontend. Link: https://www.pnytrainings.com/',
+  },
+  {
+    id: 4,
+    title: 'Blank Slate, Lahore, PK',
+    description:'MERN STACK Developer & INSTRUCTOR - Nov 2021 - Nov 2022',
+    description2:'• Provided training to students',
+    description3:'• Developed E-commerce website for Computer and laptops',
+  },
+  {
+    id: 5,
+    title: 'Freelancing Work',
+    description:'MERN STACK Developer - Nov 2021 - Present',
+    description2:'• Developed Multi-Company Website to display company data. Links: http://bluesurge.com.pk/, https://admin.bluesurge.com.pk/',
+    description3:'• Developing House renting website like https://avantstay.com/. Link: http://staywithlumina.com/',
   },
 ]

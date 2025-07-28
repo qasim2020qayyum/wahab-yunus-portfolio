@@ -20,9 +20,9 @@ function App() {
       <Header />
       <AboutMe />
       <Services />
-      {/* <Experience /> */}
+      <Experience />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contacts/>
       <Footer/>
       <ToastContainer/>

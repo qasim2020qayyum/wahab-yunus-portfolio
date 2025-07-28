@@ -8,10 +8,21 @@
     align-items: center;
     color: #fff;
   } 
-  .socialmedia img{
-    margin-left:2rem ;
+  
+  .socialmedia {
+    display: flex;
+    align-items: center;
   }
-  .socialmedia img:hover{
+  
+  .socialmedia a {
+    margin-left: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .socialmedia a:hover {
+    color: var(--primary-orange);
     transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(black, 0.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   }

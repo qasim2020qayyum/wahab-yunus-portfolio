@@ -2,9 +2,50 @@
     color: aliceblue;   
     background-image: linear-gradient(black, grey, var(--primary-dark));
 }
+
 .adeco{
-    color: aliceblue;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s ease;
 }
+
+.adeco:hover {
+    color: var(--primary-orange);
+    text-decoration: none;
+}
+
+.adeco span {
+    color: white;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
+.adeco:hover span {
+    color: var(--primary-orange);
+}
+
+/* Make the contact image smaller */
+.contact-image img {
+    width: 60%;
+    max-width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-image img {
+        width: 50%;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-image img {
+        width: 40%;
+        max-width: 200px;
+    }
+}
+
 @media screen and (max-width: 410px) {
     /* input {
         width: 90% !important;

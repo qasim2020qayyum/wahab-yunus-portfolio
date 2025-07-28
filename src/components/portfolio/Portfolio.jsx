@@ -14,19 +14,29 @@ const Portfolio = () => {
         <h1 className='text-uppercase text-center py-5'>portfolio</h1>
         <div className='row'>
           {portfolioImages.map((item, key) => (
-            <Link
-              className='col-lg-4 col-md-4 col-sm-6 my-2'
-              to={`/portfolio/${item.id}`}
-              key={key}
-            >
-              <div className='portfolio-image-box'>
-                <img
-                  className='portfolio-img'
-                  src={item.img}
-                  alt={item.title}
-                />
+            <div className='col-lg-4 col-md-6 col-sm-12 my-3' key={key}>
+              <div className='portfolio-card'>
+                <div className='portfolio-image-box'>
+                  <img
+                    className='portfolio-img'
+                    src={item.img}
+                    alt={item.title}
+                  />
+                </div>
+                <div className='portfolio-content'>
+                  <h3 className='portfolio-title'>{item.title}</h3>
+                  <p className='portfolio-description'>{item.description}</p>
+                  <a 
+                    href={item.demo} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className='portfolio-demo-btn'
+                  >
+                    View Demo
+                  </a>
+                </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

@@ -60,6 +60,29 @@
   font-weight: 900;
 }
 
+.role-duration {
+  font-weight: 600;
+  color: var(--primary-orange);
+  margin-bottom: 0.5rem;
+}
+
+.project-link {
+  color: var(--primary-orange);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--primary-red);
+  text-decoration: underline;
+}
+
+.timeline-content p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 48rem) {
   .experience {
     padding: 0.7rem;
@@ -83,5 +106,13 @@
     float: none;
     width: 100%;
     direction: ltr;
+  }
+  
+  .timeline-content {
+    padding: 0 0.5rem;
+  }
+  
+  .timeline-content p {
+    font-size: 0.9rem;
   }
 }

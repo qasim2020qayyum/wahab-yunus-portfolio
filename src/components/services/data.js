@@ -1,40 +1,40 @@
-import { faDesktop } from '@fortawesome/free-solid-svg-icons'
-import { faNode, faWordpress,faReact,faShopify} from '@fortawesome/free-brands-svg-icons'
+import { faDesktop, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faNode, faReact, faAws} from '@fortawesome/free-brands-svg-icons'
 
 export const services = [
   {
-    id: 2,
+    id: 1,
     icon: faReact,
-    title: 'FrontEnd Development',
-    description: 'Your website frontend will be build with a new proven technologies like ReactJs and Its frameWork NextJs.',
+    title: 'Frontend Development',
+    description: 'Your website frontend will be built with modern technologies like ReactJS, NextJS, Material UI, Tailwind CSS, and Bootstrap for responsive and beautiful user interfaces.',
   },
   {
-    id: 4,
+    id: 2,
     icon: faNode,
-    title: 'BackEnd Development',
+    title: 'Backend Development',
     description:
-      'Your website backend will be build with a new proven technologies like NodeJs, Express and MongoDb.',
+      'Your website backend will be built with NodeJS, ExpressJS, MongoDB, PostgreSQL, and RESTful APIs for scalable and efficient server-side solutions.',
   },
   {
     id: 3,
-    icon: faWordpress,
-    title: 'WordPress Development',
+    icon: faDatabase,
+    title: 'Database Design',
     description:
-      'I will develop your wordrpess web theme and customize your theme.',
+      'I will design and implement efficient database schemas using MongoDB and PostgreSQL, ensuring optimal performance and data integrity.',
   },
   
   {
     id: 4,
-    icon: faShopify,
-    title: 'Shopify Web Development',
+    icon: faAws,
+    title: 'Cloud & Deployment',
     description:
-      'I will Setup your E-commerce Shopify Store.',
+      'I will deploy and manage your applications on AWS services including EC2, S3, Lambda, and Amplify, ensuring high availability and scalability.',
   },
   {
-    id: 1,
+    id: 5,
     icon: faDesktop,
-    title: 'Web Design',
+    title: 'Full Stack Development',
     description:
-      ' I will make design of your website on Figma. I approach each project individualy and always focus on the result.',
+      'I provide complete MERN/PERN stack development services, from concept to deployment, creating comprehensive web applications.',
   },
 ]
